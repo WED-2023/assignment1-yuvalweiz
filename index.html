@@ -1,193 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Dedicated to [Person's Name]</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+    <header>
+        <h1 class="header-title">Welcome to Pelé Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#photos">My Photos</a></li>
+                <li><a href="#playlist">My Playlist</a></li>
+                <li><a href="#like">Like</a></li>
+                <li><a href="#qrcode">QR Code</a></li>
+                <li><a href="#qa">Q&A</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Edson Arantes do Nascimento (Brazilian Portuguese: [ˈɛdsõ aˈɾɐ̃tʃiz du nasiˈmẽtu]), better known by his nickname Pelé, was a Brazilian professional footballer who played as a forward. Widely regarded as one of the greatest players of all time, he was among the most successful and popular sports figures of the 20th century.</p>
+        <p>23 October 1940 – 29 December 2022</p>
+    </section>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="photos">
+        <h2>My Photos</h2>
+        <div id="photo-gallery">
+            <img src="photos/pele_pic_1.jpeg"alt="photo1">
+            <img src="photos/pele_pic_2.jpeg"alt="photo2">
+            <img src="photos/pele_pic_3.jpeg"alt="photo3">
+            <img src="photos/pele_pic_4.jpeg"alt="photo4">
+            <img src="photos/pele_pic_5.jpeg"alt="photo5">
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+        </div>
+    </section>
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="playlist">
+        <h2>My Playlist</h2>
+        <div id="music-player">
+            <div class="audio-container">
+                <p>Pelé Esperança</p>
+                <audio src="songs/Pelé_Esperança.mp3" controls="controls">Your browser does not support the audio element.</audio>
+            </div>
+            <div class="audio-container">
+                <p>Samba de Janeiro</p>
+                <audio src="songs/Samba de Janeiro-.mp3" controls="controls">Your browser does not support the audio element.</audio>
+            </div>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+        </div>
+    </section>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="like">
+        <h2>Like</h2>
+        <div id="like-container">
+            <button id="like-button">
+                <img src="photos/like.jpg" alt="Like" width="32" height="32">
+            </button>
+            <span id="like-count">0</span> Likes
+        </div>
+        <p>Favorite books, movies, hobbies, etc.</p>
+    </section>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="qrcode">
+        <h2>QR Code</h2>
+        <img src="photos/qr.png" alt="QR Code">
+    </section>
 
+    <section id="qa">
+        <h2>Q&A</h2>
+        <div id="questions">
+            <!-- Questions and answers will go here --><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Evolution</title>
+    </head>
+    <body>
+        <h1>Web Evolution</h1>
+    
+        <h2>Interaction</h2>
+        <p><strong>Web 1.0</strong>: Minimal interaction, users mainly read content.</p>
+        <p><strong>Web 2.0</strong>: High interaction, users create and share content.</p>
+        <p><strong>Web 3.0</strong>: Enhanced interaction, users have personalized and intelligent experiences.</p>
+    
+        <h2>Content Management</h2>
+        <p><strong>Web 1.0</strong>: Centralized content ownership by website creators.</p>
+        <p><strong>Web 2.0</strong>: Shared content creation and management by users.</p>
+        <p><strong>Web 3.0</strong>: Decentralized and consolidated content management using advanced technologies.</p>
+    
+        <h2>Technology</h2>
+        <p><strong>Web 1.0</strong>: Static HTML pages and basic web technologies.</p>
+        <p><strong>Web 2.0</strong>: Dynamic content using AJAX, JavaScript, and XML.</p>
+        <p><strong>Web 3.0</strong>: Semantic web technologies (RDF, OWL) and AI-driven services.</p>
+    
+        <h2> Searching for Information Use Case</h2>
+        <h2>Web 1.0</h2>
+    <p>In Web 1.0, users would visit directories and use basic search engines to find information. The interaction is minimal, and the content is static and centrally managed by website creators.</p>
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+    <h2>Web 2.0</h2>
+    <p>In Web 2.0, users use advanced search engines and social media platforms to find and share information. There is a high level of interaction, with users creating, sharing, and managing content collaboratively.</p>
+
+    <h2>Web 3.0</h2>
+    <p>In Web 3.0, users rely on AI-driven assistants that understand context and provide personalized results. The interaction is enhanced with personalized and intelligent experiences, and content management is decentralized and consolidated using advanced technologies.</p>
+    </body>
+    </html>
+    
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <label for="emoji">Select Emoji:</label>
+            <select id="emoji" name="emoji">
+                <option value="">No Emoji</option>
+                <option value="😊">😊</option>
+                <option value="😄">😄</option>
+                <option value="😍">😍</option>
+                <option value="😎">😎</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script>
+        function validateForm() {
+            var message = document.getElementById('message').value;
+            if (message.trim() === '') {
+                alert('Message cannot be empty!');
+                return false;
+            }
+            return true;
+        }
+    </script>
 </body>
 </html>
